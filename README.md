@@ -1,6 +1,1 @@
-# Plans
-# Plans
-# Plans
-# Plans
-# Plans
-# Plans
+Directory of friend group plans
