@@ -5,19 +5,24 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Create new plans</title>
-		<script type="text/javascript">
-			
-		</script>
 	</head>
 	<body>
+		<script type="text/javascript">
+		function addDate(){
+			document.getElementById("newDate").innerHTML = "hi"
+		}
+		</script>
 		<form>
 			<input type="text" name="Name" value="Enter Name">
 			<br>
+			<div>
+			<div id="newDate"></div>
 			<input type="date" name="Date">
-			<br>
+			<button id="add-date-button" onclick="addDate()">+</button>
+		</div>
 			<input type="file" name="Plan Picture" accept="image/jpeg, image/jpg, image/png">
 			<br>
-			<input type="submit" value="Submit"> 
+			<input type="submit" value="Submit">
 		</form>
 	</body>
 </html>
